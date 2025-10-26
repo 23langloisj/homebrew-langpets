@@ -8,7 +8,7 @@ class Langpets < Formula
   depends_on "python@3.11"
 
   def install
-    bin.install "langpets"
+    bin.install "langpets/cli.py" => "langpets"
   end
 
   test do
